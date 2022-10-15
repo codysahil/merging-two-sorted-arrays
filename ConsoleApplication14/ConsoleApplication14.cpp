@@ -13,6 +13,7 @@ void merging(int arr[], int brr[],int crr[], int m,int n) {
 			crr[k++] = brr[j++];
 		}
 	}
+	// HERE INITIALISATION IS DONE BEFORE THAT IS WHY SEMICOLON IS JUST AFTER FOR LOOP
 	for (; i < m; i++) {
 		crr[k++] = arr[i];
 	}
